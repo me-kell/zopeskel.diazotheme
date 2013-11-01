@@ -10,7 +10,7 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="${description or None}"
+      title="${namespace_package}.${package} Diazo Theme Package"
       directory="profiles/default"
       description="Extension profile for ${description or None}"
       provides="Products.GenericSetup.interfaces.EXTENSION"
